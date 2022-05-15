@@ -1,0 +1,99 @@
+table, th, td {
+    border: 1px solid whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+}
+table.cert {
+    padding-top: 10px;
+    background-color: rgba(255,255,255,0.6);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    margin-bottom: 50px;
+}
+table.cert *{
+    font-family: 'Poppins',sans-serif;
+    color: black;
+    letter-spacing: 0.5px;
+}
+
+h3.h2 {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    color: antiquewhite;
+    background-color: royalblue;
+
+}
+
+form.f1 {
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 10px;
+    width: 30%;
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid whitesmoke;
+    margin-bottom: 50px;
+
+}
+form.f1 *{
+    font-family: 'Poppins',sans-serif;
+    color: Black;
+    letter-spacing: 0.5px;
+    outline: none;
+}
+form.f1 h3.h3 {
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+
+label.l1{
+    font-size: 16px;
+    font-weight: 1000;
+}
+select.s1 {
+
+    border-radius: 3px;
+    padding: 10px 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+    background-color: whitesmoke;
+}
+
+
+input.i1{
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: black;
+    font-weight: 600;
+}
+input.submit {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button.b1 {
+    background-color: #ffffff;
+    color: #080710;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
